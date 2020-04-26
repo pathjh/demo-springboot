@@ -26,7 +26,6 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import javax.servlet.http.HttpSession;
 
 import java.nio.charset.StandardCharsets;
-
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
@@ -82,7 +81,6 @@ class AuthControllerTest {
                 })
                 .andReturn();
 
-//        System.out.println(Arrays.toString(response.getResponse().getCookies()));
         HttpSession session = response.getRequest().getSession();
         mvc.perform(MockMvcRequestBuilders.get("/auth").session((MockHttpSession) session))
                 .andExpect(status().isOk()).andExpect(new ResultMatcher() {
@@ -93,7 +91,6 @@ class AuthControllerTest {
                         .assertTrue(mvcResult.getResponse().getContentAsString(StandardCharsets.UTF_8).contains("MyUser"));
             }
         });
-
     }
 
 

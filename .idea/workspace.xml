@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="253cd0b8-d86d-4b92-9f73-b84fbf66d06c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springboot/controller/AuthControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot/controller/AuthControllerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="253cd0b8-d86d-4b92-9f73-b84fbf66d06c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -231,7 +228,7 @@
       <workItem from="1587694863357" duration="10942000" />
       <workItem from="1587788270646" duration="2179000" />
       <workItem from="1587797503820" duration="4862000" />
-      <workItem from="1587866954651" duration="6740000" />
+      <workItem from="1587866954651" duration="7445000" />
     </task>
     <task id="LOCAL-00001" summary="加入集成测试依赖">
       <created>1587879945087</created>
@@ -240,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587879945087</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="测试ci">
+      <created>1587881285646</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587881285665</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +252,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="加入集成测试依赖" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入集成测试依赖" />
+    <MESSAGE value="测试ci" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试ci" />
   </component>
   <component name="WindowStateProjectService">
     <state x="244" y="42" key="#Project_Structure" timestamp="1587204533522">
@@ -277,10 +282,10 @@
     </state>
     <state x="734" y="89" key="#xdebugger.evaluate/0.0.1304.768@0.0.1304.768" timestamp="1587364959620" />
     <state x="769" y="84" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1587696940057" />
-    <state x="247" y="0" key="CommitChangelistDialog2" timestamp="1587879935484">
+    <state x="247" y="0" key="CommitChangelistDialog2" timestamp="1587881273103">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="247" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587879935484" />
+    <state x="247" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587881273103" />
     <state width="636" height="229" key="GridCell.Tab.0.bottom" timestamp="1587879807096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -366,10 +371,10 @@
     </state>
     <state x="696" y="132" width="540" height="524" key="StructurePopup/0.0.1299.768@0.0.1299.768" timestamp="1587367620836" />
     <state x="574" y="132" width="582" height="497" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1587701173572" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1587879958011">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1587881284216">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587879958011" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587881284216" />
     <state x="715" y="6" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1587612755726">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
