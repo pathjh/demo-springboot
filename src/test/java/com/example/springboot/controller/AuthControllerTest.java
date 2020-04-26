@@ -62,7 +62,6 @@ class AuthControllerTest {
         mvc.perform(MockMvcRequestBuilders.get("/auth"))
                 .andExpect(status().isOk()).andExpect(mvcResult -> Assertions
                 .assertTrue(mvcResult.getResponse().getContentAsString(StandardCharsets.UTF_8).contains("用户没有登录")));
-
         //使用/auth/login登录
         //创建这个map用于得到一个json
         Map<String, String> usernamePassword = new HashMap<>();
@@ -71,7 +70,7 @@ class AuthControllerTest {
         new ObjectMapper().writeValueAsString(usernamePassword);
         Mockito.when(userService.loadUserByUsername("MyUser")).thenReturn(new User("MyUser", bCryptPasswordEncoder.encode("MyPassword"), Collections.emptyList()));
         Mockito.when(userService.getUserByUsername("MyUser")).thenReturn(new com.example.springboot.entity.User(123, "MyUser", bCryptPasswordEncoder.encode("MyPassword")));
-        //再次检查/auth返回值，处于登录状态
+        //再次检查/auth返回值，处于登录状态.
         MvcResult response = mvc.perform(MockMvcRequestBuilders.post("/auth/login").contentType(MediaType.APPLICATION_JSON_VALUE)
                 .content(new ObjectMapper().writeValueAsString(usernamePassword)))
                 .andExpect(status().isOk())
@@ -87,6 +86,7 @@ class AuthControllerTest {
             @Override
             public void match(MvcResult mvcResult) throws Exception {
 //                System.out.println(mvcResult.getResponse().getContentAsString(StandardCharsets.UTF_8));
+
                 Assertions
                         .assertTrue(mvcResult.getResponse().getContentAsString(StandardCharsets.UTF_8).contains("MyUser"));
             }
