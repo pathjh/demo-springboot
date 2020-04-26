@@ -66,12 +66,12 @@ class AuthControllerTest {
 
         //使用/auth/login登录
         //创建这个map用于得到一个json
-        Map<String,String> usernamePassword =new HashMap<>();
-        usernamePassword.put("username","MyUser");
-        usernamePassword.put("password","MyPassword");
+        Map<String, String> usernamePassword = new HashMap<>();
+        usernamePassword.put("username", "MyUser");
+        usernamePassword.put("password", "MyPassword");
         new ObjectMapper().writeValueAsString(usernamePassword);
-        Mockito.when(userService.loadUserByUsername("MyUser")).thenReturn(new User("MyUser",bCryptPasswordEncoder.encode("MyPassword"), Collections.emptyList()));
-        Mockito.when(userService.getUserByUsername("MyUser")).thenReturn(new com.example.springboot.entity.User(123,"MyUser",bCryptPasswordEncoder.encode("MyPassword")));
+        Mockito.when(userService.loadUserByUsername("MyUser")).thenReturn(new User("MyUser", bCryptPasswordEncoder.encode("MyPassword"), Collections.emptyList()));
+        Mockito.when(userService.getUserByUsername("MyUser")).thenReturn(new com.example.springboot.entity.User(123, "MyUser", bCryptPasswordEncoder.encode("MyPassword")));
         //再次检查/auth返回值，处于登录状态
         MvcResult response = mvc.perform(MockMvcRequestBuilders.post("/auth/login").contentType(MediaType.APPLICATION_JSON_VALUE)
                 .content(new ObjectMapper().writeValueAsString(usernamePassword)))
