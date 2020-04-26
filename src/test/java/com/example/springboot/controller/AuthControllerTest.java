@@ -70,7 +70,7 @@ class AuthControllerTest {
         new ObjectMapper().writeValueAsString(usernamePassword);
         Mockito.when(userService.loadUserByUsername("MyUser")).thenReturn(new User("MyUser", bCryptPasswordEncoder.encode("MyPassword"), Collections.emptyList()));
         Mockito.when(userService.getUserByUsername("MyUser")).thenReturn(new com.example.springboot.entity.User(123, "MyUser", bCryptPasswordEncoder.encode("MyPassword")));
-        //再次检查/auth返回值，处于登录状态
+        //再次检查/auth返回值，处于登录状态.
         MvcResult response = mvc.perform(MockMvcRequestBuilders.post("/auth/login").contentType(MediaType.APPLICATION_JSON_VALUE)
                 .content(new ObjectMapper().writeValueAsString(usernamePassword)))
                 .andExpect(status().isOk())

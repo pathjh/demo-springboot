@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="253cd0b8-d86d-4b92-9f73-b84fbf66d06c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springboot/controller/AuthControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot/controller/AuthControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +230,8 @@
       <workItem from="1587694863357" duration="10942000" />
       <workItem from="1587788270646" duration="2179000" />
       <workItem from="1587797503820" duration="4862000" />
-      <workItem from="1587866954651" duration="8183000" />
+      <workItem from="1587866954651" duration="8540000" />
+      <workItem from="1587891301705" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="加入集成测试依赖">
       <created>1587879945087</created>
@@ -383,10 +382,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="715" y="6" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1587612755726" />
-    <state x="363" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1587867128292">
+    <state x="363" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1587891288572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587867128291" />
+    <state x="363" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587891288572" />
     <state x="777" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587643661466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
