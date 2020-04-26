@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="253cd0b8-d86d-4b92-9f73-b84fbf66d06c" name="Default Changelist" comment="" />
+    <list default="true" id="253cd0b8-d86d-4b92-9f73-b84fbf66d06c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__Create_User.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot/integration/MyIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f273262c-144f-4522-b58d-8ff5122b6724.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f273262c-144f-4522-b58d-8ff5122b6724.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,23 +46,19 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="boot: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="boot@192.168.99.100" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="boot: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -72,6 +80,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -94,7 +103,22 @@
       <recent name="com.example.springboot.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AuthControllerTest.testLogin">
+  <component name="RunManager" selected="JUnit.AuthControllerTest">
+    <configuration name="AuthControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springboot.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot.controller.AuthControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AuthControllerTest.returnNotLoginByDefault" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-demo" />
       <extension name="coverage">
@@ -157,29 +181,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.returnUserDetailsWhenUserFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.springboot.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.springboot.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springboot.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="returnUserDetailsWhenUserFound" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springboot.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AuthControllerTest" />
         <item itemvalue="JUnit.AuthControllerTest.testLogin" />
         <item itemvalue="JUnit.AuthControllerTest.returnNotLoginByDefault" />
         <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.SmokeTest" />
-        <item itemvalue="JUnit.UserServiceTest.returnUserDetailsWhenUserFound" />
       </list>
     </recent_temporary>
   </component>
@@ -224,6 +239,8 @@
       <workItem from="1587601280161" duration="22692000" />
       <workItem from="1587694863357" duration="10942000" />
       <workItem from="1587788270646" duration="2179000" />
+      <workItem from="1587797503820" duration="4862000" />
+      <workItem from="1587866954651" duration="5538000" />
     </task>
     <servers />
   </component>
@@ -235,10 +252,14 @@
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state x="244" y="42" key="#Project_Structure/0.0.1304.768@0.0.1304.768" timestamp="1587204533522" />
-    <state x="175" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587601530798">
+    <state x="275" y="22" key="#SQL_Dialects" timestamp="1587822293696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="175" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587601530798" />
+    <state x="275" y="22" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1587822293696" />
+    <state x="167" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587869545066">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="167" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587869545066" />
     <state x="830" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1587607715494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -253,30 +274,30 @@
     </state>
     <state x="734" y="89" key="#xdebugger.evaluate/0.0.1304.768@0.0.1304.768" timestamp="1587364959620" />
     <state x="769" y="84" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1587696940057" />
-    <state width="633" height="27" key="GridCell.Tab.0.bottom" timestamp="1587707928039">
+    <state width="636" height="229" key="GridCell.Tab.0.bottom" timestamp="1587879807096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="602" height="225" key="GridCell.Tab.0.bottom/0.0.1299.768@0.0.1299.768" timestamp="1587371629847" />
     <state width="1261" height="243" key="GridCell.Tab.0.bottom/0.0.1304.768@0.0.1304.768" timestamp="1587364229876" />
-    <state width="633" height="27" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587707928039" />
-    <state width="633" height="27" key="GridCell.Tab.0.center" timestamp="1587707928039">
+    <state width="636" height="229" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587879807096" />
+    <state width="636" height="229" key="GridCell.Tab.0.center" timestamp="1587879807096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="602" height="225" key="GridCell.Tab.0.center/0.0.1299.768@0.0.1299.768" timestamp="1587371629846" />
     <state width="1261" height="243" key="GridCell.Tab.0.center/0.0.1304.768@0.0.1304.768" timestamp="1587364229875" />
-    <state width="633" height="27" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587707928039" />
-    <state width="633" height="27" key="GridCell.Tab.0.left" timestamp="1587707928039">
+    <state width="636" height="229" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587879807096" />
+    <state width="636" height="229" key="GridCell.Tab.0.left" timestamp="1587879807096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="602" height="225" key="GridCell.Tab.0.left/0.0.1299.768@0.0.1299.768" timestamp="1587371629846" />
     <state width="1261" height="243" key="GridCell.Tab.0.left/0.0.1304.768@0.0.1304.768" timestamp="1587364229875" />
-    <state width="633" height="27" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587707928039" />
-    <state width="633" height="27" key="GridCell.Tab.0.right" timestamp="1587707928039">
+    <state width="636" height="229" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587879807096" />
+    <state width="636" height="229" key="GridCell.Tab.0.right" timestamp="1587879807096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="602" height="225" key="GridCell.Tab.0.right/0.0.1299.768@0.0.1299.768" timestamp="1587371629847" />
     <state width="1261" height="243" key="GridCell.Tab.0.right/0.0.1304.768@0.0.1304.768" timestamp="1587364229876" />
-    <state width="633" height="27" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587707928039" />
+    <state width="636" height="229" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587879807096" />
     <state width="633" height="338" key="GridCell.Tab.1.bottom" timestamp="1587707529534">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -325,6 +346,10 @@
     <state width="602" height="225" key="GridCell.Tab.2.right/0.0.1299.768@0.0.1299.768" timestamp="1587371629849" />
     <state width="1261" height="243" key="GridCell.Tab.2.right/0.0.1304.768@0.0.1304.768" timestamp="1587364229520" />
     <state width="635" height="191" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1587621754160" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1587870913150">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1587870913150" />
     <state x="368" y="9" key="SettingsEditor" timestamp="1587208537717">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -338,10 +363,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="715" y="6" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1587612755726" />
-    <state x="363" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1587788270633">
+    <state x="363" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1587867128292">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587788270633" />
+    <state x="363" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587867128291" />
     <state x="777" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587643661466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
