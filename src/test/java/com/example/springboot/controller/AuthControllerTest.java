@@ -62,7 +62,6 @@ class AuthControllerTest {
         mvc.perform(MockMvcRequestBuilders.get("/auth"))
                 .andExpect(status().isOk()).andExpect(mvcResult -> Assertions
                 .assertTrue(mvcResult.getResponse().getContentAsString(StandardCharsets.UTF_8).contains("用户没有登录")));
-
         //使用/auth/login登录
         //创建这个map用于得到一个json
         Map<String, String> usernamePassword = new HashMap<>();
@@ -87,6 +86,7 @@ class AuthControllerTest {
             @Override
             public void match(MvcResult mvcResult) throws Exception {
 //                System.out.println(mvcResult.getResponse().getContentAsString(StandardCharsets.UTF_8));
+
                 Assertions
                         .assertTrue(mvcResult.getResponse().getContentAsString(StandardCharsets.UTF_8).contains("MyUser"));
             }
