@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="253cd0b8-d86d-4b92-9f73-b84fbf66d06c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__Create_User.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot/integration/MyIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f273262c-144f-4522-b58d-8ff5122b6724.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f273262c-144f-4522-b58d-8ff5122b6724.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springboot/controller/AuthControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot/controller/AuthControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,12 +231,24 @@
       <workItem from="1587694863357" duration="10942000" />
       <workItem from="1587788270646" duration="2179000" />
       <workItem from="1587797503820" duration="4862000" />
-      <workItem from="1587866954651" duration="5538000" />
+      <workItem from="1587866954651" duration="6740000" />
     </task>
+    <task id="LOCAL-00001" summary="加入集成测试依赖">
+      <created>1587879945087</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587879945087</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="加入集成测试依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入集成测试依赖" />
   </component>
   <component name="WindowStateProjectService">
     <state x="244" y="42" key="#Project_Structure" timestamp="1587204533522">
