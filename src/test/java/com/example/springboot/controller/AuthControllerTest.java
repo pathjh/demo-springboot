@@ -91,7 +91,6 @@ class AuthControllerTest {
                         .assertTrue(mvcResult.getResponse().getContentAsString(StandardCharsets.UTF_8).contains("MyUser"));
             }
         });
-
     }
 
 

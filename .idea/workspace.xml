@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="253cd0b8-d86d-4b92-9f73-b84fbf66d06c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springboot/controller/AuthControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot/controller/AuthControllerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="253cd0b8-d86d-4b92-9f73-b84fbf66d06c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -231,7 +228,7 @@
       <workItem from="1587694863357" duration="10942000" />
       <workItem from="1587788270646" duration="2179000" />
       <workItem from="1587797503820" duration="4862000" />
-      <workItem from="1587866954651" duration="6740000" />
+      <workItem from="1587866954651" duration="7445000" />
     </task>
     <task id="LOCAL-00001" summary="加入集成测试依赖">
       <created>1587879945087</created>
@@ -240,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587879945087</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="测试ci">
+      <created>1587881285646</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587881285665</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +252,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="加入集成测试依赖" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入集成测试依赖" />
+    <MESSAGE value="测试ci" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试ci" />
   </component>
   <component name="WindowStateProjectService">
     <state x="244" y="42" key="#Project_Structure" timestamp="1587204533522">
