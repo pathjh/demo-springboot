@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="253cd0b8-d86d-4b92-9f73-b84fbf66d06c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springboot/controller/AuthControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot/controller/AuthControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +232,7 @@
       <workItem from="1587788270646" duration="2179000" />
       <workItem from="1587797503820" duration="4862000" />
       <workItem from="1587866954651" duration="8540000" />
-      <workItem from="1587891301705" duration="594000" />
+      <workItem from="1587891301705" duration="1312000" />
     </task>
     <task id="LOCAL-00001" summary="加入集成测试依赖">
       <created>1587879945087</created>
