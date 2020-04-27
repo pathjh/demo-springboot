@@ -86,7 +86,6 @@ class AuthControllerTest {
             @Override
             public void match(MvcResult mvcResult) throws Exception {
 //                System.out.println(mvcResult.getResponse().getContentAsString(StandardCharsets.UTF_8));
-//加入一行注释以测试ci
                 Assertions
                         .assertTrue(mvcResult.getResponse().getContentAsString(StandardCharsets.UTF_8).contains("MyUser"));
             }
